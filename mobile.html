@@ -9,7 +9,7 @@ book4 : 우주
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>엄마와그림책</title>
+    <title>꿈틀꿈틀AR그림책</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico" />
 
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
@@ -27,1240 +27,366 @@ book4 : 우주
       arjs="detectionMode: mono_and_matrix; matrixCodeType: 4x4_BCH_13_9_3;"
     >
     <a-assets>
-      <!-- 꿈틀꿈틀 -->
-      <img id="꿈틀꿈틀1-1" src="./assets/꿈틀꿈틀/1/1-1.png" />
-      <img id="꿈틀꿈틀2-1" src="./assets/꿈틀꿈틀/2/2-1.png" />
-      <img id="꿈틀꿈틀2-2" src="./assets/꿈틀꿈틀/2/2-2.png" />
-      <img id="꿈틀꿈틀3-1" src="./assets/꿈틀꿈틀/3/3-1.png" />
-      <img id="꿈틀꿈틀3-2" src="./assets/꿈틀꿈틀/3/3-2.png" />
-      <img id="꿈틀꿈틀4-1" src="./assets/꿈틀꿈틀/4/4-1.png" />
-      <img id="꿈틀꿈틀4-2" src="./assets/꿈틀꿈틀/4/4-2.png" />
-      <img id="꿈틀꿈틀5-1" src="./assets/꿈틀꿈틀/5/5-1.png" />
-      <img id="꿈틀꿈틀5-2" src="./assets/꿈틀꿈틀/5/5-2.png" />
-      <img id="꿈틀꿈틀6-1" src="./assets/꿈틀꿈틀/6/6-1.png" />
-      <img id="꿈틀꿈틀6-2" src="./assets/꿈틀꿈틀/6/6-2.png" />
-      <img id="꿈틀꿈틀7-1" src="./assets/꿈틀꿈틀/7/7-1.png" />
-      <img id="꿈틀꿈틀7-2" src="./assets/꿈틀꿈틀/7/7-2.png" />
-      <img id="꿈틀꿈틀8-1" src="./assets/꿈틀꿈틀/8/8-1.png" />
-      <img id="꿈틀꿈틀8-2" src="./assets/꿈틀꿈틀/8/8-2.png" />
-      <img id="꿈틀꿈틀9-1" src="./assets/꿈틀꿈틀/9/9-1.png" />
-      <img id="꿈틀꿈틀9-2" src="./assets/꿈틀꿈틀/9/9-2.png" />
-      <img id="꿈틀꿈틀10-2" src="./assets/꿈틀꿈틀/10/10-2.png" />
-      <img id="꿈틀꿈틀11-1" src="./assets/꿈틀꿈틀/11/11-1.png" />
-      <img id="꿈틀꿈틀11-2" src="./assets/꿈틀꿈틀/11/11-2.png" />
-      <img id="꿈틀꿈틀12-1" src="./assets/꿈틀꿈틀/12/12-1.png" />
-      <img id="꿈틀꿈틀12-2" src="./assets/꿈틀꿈틀/12/12-2.png" />
-      <img id="꿈틀꿈틀13-1" src="./assets/꿈틀꿈틀/13/13-1.png" />
-      <img id="꿈틀꿈틀14-1" src="./assets/꿈틀꿈틀/14/14-1.png" />
-      <img id="꿈틀꿈틀15-1" src="./assets/꿈틀꿈틀/15/15-1.png" />
-      <img id="꿈틀꿈틀16-1" src="./assets/꿈틀꿈틀/16/16-1.png" />
-      <img id="꿈틀꿈틀16-2" src="./assets/꿈틀꿈틀/16/16-2.png" />
-      <img id="꿈틀꿈틀17-1" src="./assets/꿈틀꿈틀/17/17-1.png" />
-      <img id="꿈틀꿈틀17-2" src="./assets/꿈틀꿈틀/17/17-2.png" />
-      <img id="꿈틀꿈틀18-1" src="./assets/꿈틀꿈틀/18/18-1.png" />
-      <img id="꿈틀꿈틀18-2" src="./assets/꿈틀꿈틀/18/18-2.png" />
-      <img id="꿈틀꿈틀19-1" src="./assets/꿈틀꿈틀/19/19-1.png" />
-      <img id="꿈틀꿈틀19-2" src="./assets/꿈틀꿈틀/19/19-2.png" />
-      <img id="꿈틀꿈틀20-1" src="./assets/꿈틀꿈틀/20/20-1.png" />
-      <img id="꿈틀꿈틀20-2" src="./assets/꿈틀꿈틀/20/20-2.png" />
-      <img id="꿈틀꿈틀21-1" src="./assets/꿈틀꿈틀/21/21-1.png" />
-      <img id="꿈틀꿈틀21-2" src="./assets/꿈틀꿈틀/21/21-2.png" />
-      <img id="꿈틀꿈틀22-1" src="./assets/꿈틀꿈틀/22/22-1.png" />
-      <img id="꿈틀꿈틀22-2" src="./assets/꿈틀꿈틀/22/22-2.png" />
-      <img id="꿈틀꿈틀23-1" src="./assets/꿈틀꿈틀/23/23-1.png" />
-      <img id="꿈틀꿈틀23-2" src="./assets/꿈틀꿈틀/23/23-2.png" />
-      <img id="꿈틀꿈틀24-1" src="./assets/꿈틀꿈틀/24/24-1.png" />
-      <img id="꿈틀꿈틀24-2" src="./assets/꿈틀꿈틀/24/24-2.png" />
-      <img id="꿈틀꿈틀25-1" src="./assets/꿈틀꿈틀/25/25-1.png" />
-      <img id="꿈틀꿈틀26-1" src="./assets/꿈틀꿈틀/26/26-1.png" />
+      <img id="0img" src="./assets/0img.png" />
+      <img id="2img" src="./assets/2img.png" />
+      <img id="3img" src="./assets/3img.png" />
+      <img id="4img" src="./assets/4img.png" />
+      <img id="5img" src="./assets/5img.png" />
+      <img id="6img" src="./assets/6img.png" />
+      <img id="7img" src="./assets/7img.png" />
+      <img id="8img" src="./assets/8img.png" />
+      <img id="13img" src="./assets/13img.png" />
+      <img id="18img" src="./assets/18img.png" />
+      <img id="19img" src="./assets/19img.png" />
+      <img id="20img" src="./assets/20img.png" />
+      <img id="21img" src="./assets/21img.png" />
+      <img id="27img" src="./assets/27img.png" />
+      <img id="31img" src="./assets/31img.png" />
+      
       <audio
-        id="꿈틀꿈틀1-3"
-        src="./assets/꿈틀꿈틀/1/1-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
+      id="1audio"
+      src="./assets/1audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
       <audio
-        id="꿈틀꿈틀4-3"
-        src="./assets/꿈틀꿈틀/4/4-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
+      id="9audio"
+      src="./assets/9audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
       <audio
-        id="꿈틀꿈틀5-3"
-        src="./assets/꿈틀꿈틀/5/5-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
+      id="10audio"
+      src="./assets/10audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
       <audio
-        id="꿈틀꿈틀6-3"
-        src="./assets/꿈틀꿈틀/6/6-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
+      id="11audio"
+      src="./assets/11audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
       <audio
-        id="꿈틀꿈틀12-3"
-        src="./assets/꿈틀꿈틀/12/12-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
+      id="12audio"
+      src="./assets/12audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
       <audio
-        id="꿈틀꿈틀13-3"
-        src="./assets/꿈틀꿈틀/13/13-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
+      id="13audio"
+      src="./assets/13audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
       <audio
-        id="꿈틀꿈틀14-3"
-        src="./assets/꿈틀꿈틀/14/14-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
+      id="17audio"
+      src="./assets/17audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
       <audio
-        id="꿈틀꿈틀15-3"
-        src="./assets/꿈틀꿈틀/15/15-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
+      id="22audio"
+      src="./assets/22audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
       <audio
-        id="꿈틀꿈틀22-3"
-        src="./assets/꿈틀꿈틀/22/22-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
+      id="24audio"
+      src="./assets/24audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
       <audio
-        id="꿈틀꿈틀25-3"
-        src="./assets/꿈틀꿈틀/25/25-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
+      id="26audio"
+      src="./assets/26audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
       <audio
-        id="꿈틀꿈틀26-3"
-        src="./assets/꿈틀꿈틀/26/26-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
+      id="27audio"
+      src="./assets/27audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
+      <audio
+      id="28audio"
+      src="./assets/28audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
+      <audio
+      id="29audio"
+      src="./assets/29audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
+      <audio
+      id="30audio"
+      src="./assets/30audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
+      <audio
+      id="31audio"
+      src="./assets/31audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
+      <audio
+      id="32audio"
+      src="./assets/32audio.mp3"
+      type="audio/mp3"
+      preload="auto"
+    ></audio>
 
-      <!-- 모모기획 -->
-      <img id="모모기획1-2" src="./assets/모모기획/74/1-2.png" />
-      <img id="모모기획2-2" src="./assets/모모기획/75/2-2.png" />
-      <img id="모모기획3-2" src="./assets/모모기획/76/3-2.png" />
-      <img id="모모기획4-2" src="./assets/모모기획/77/4-2.png" />
-      <img id="모모기획6-2" src="./assets/모모기획/78/6-2.png" />
-      <img id="모모기획7-2" src="./assets/모모기획/79/7-2.png" />
-      <img id="모모기획8-2" src="./assets/모모기획/80/8-2.png" />
-      <img id="모모기획10-2" src="./assets/모모기획/27/10-2.png" />
-      <img id="모모기획11-2" src="./assets/모모기획/28/11-2.png" />
-      <img id="모모기획13-2" src="./assets/모모기획/29/13-2.png" />
-      <img id="모모기획14-2" src="./assets/모모기획/30/14-2.png" />
-      <img id="모모기획15-2" src="./assets/모모기획/31/15-2.png" />
-      <img id="모모기획17-2" src="./assets/모모기획/32/17-2.png" />
-      <img id="모모기획18-2" src="./assets/모모기획/33/18-2.png" />
-      <img id="모모기획19-2" src="./assets/모모기획/34/19-2.png" />
-      <img id="모모기획20-2" src="./assets/모모기획/35/20-2.png" />
-      <audio
-        id="모모기획1-3"
-        src="./assets/모모기획/74/1-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="모모기획2-3"
-        src="./assets/모모기획/75/2-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="모모기획3-3"
-        src="./assets/모모기획/76/3-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="모모기획4-3"
-        src="./assets/모모기획/77/4-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="모모기획6-3"
-        src="./assets/모모기획/78/6-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="모모기획7-3"
-        src="./assets/모모기획/79/7-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="모모기획8-3"
-        src="./assets/모모기획/80/8-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="모모기획10-3"
-        src="./assets/모모기획/27/10-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="모모기획11-3"
-        src="./assets/모모기획/28/11-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="모모기획13-3"
-        src="./assets/모모기획/29/13-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="모모기획14-3"
-        src="./assets/모모기획/30/14-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="모모기획15-3"
-        src="./assets/모모기획/31/15-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="모모기획17-3"
-        src="./assets/모모기획/32/17-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="모모기획18-3"
-        src="./assets/모모기획/33/18-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-
-      <!-- 바람소리 -->
-      <img id="바람소리3-1" src="./assets/바람소리/40/3-1.png" />
-      <img id="바람소리5-2" src="./assets/바람소리/41/5-2.png" />
-      <img id="바람소리7-1" src="./assets/바람소리/42/7-1.png" />
-      <img id="바람소리8-2" src="./assets/바람소리/43/8-2.png" />
-      <img id="바람소리11-2" src="./assets/바람소리/44/11-2.png" />
-      <img id="바람소리15-2" src="./assets/바람소리/45/15-2.png" />
-      <img id="바람소리16-2" src="./assets/바람소리/46/16-2.png" />
-      <img id="바람소리17-2" src="./assets/바람소리/47/17-2.png" />
-      <img id="바람소리19-1" src="./assets/바람소리/48/19-1.png" />
-      <img id="바람소리21-1" src="./assets/바람소리/49/21-1.png" />
-      <audio
-        id="바람소리3-3"
-        src="./assets/바람소리/40/3-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="바람소리7-3"
-        src="./assets/바람소리/42/7-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="바람소리16-3"
-        src="./assets/바람소리/46/16-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="바람소리17-3"
-        src="./assets/바람소리/47/17-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="바람소리19-3"
-        src="./assets/바람소리/48/19-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="바람소리21-3"
-        src="./assets/바람소리/49/21-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-
-      <!-- 책도시락 -->
-      <img id="책도시락4-2" src="./assets/책도시락/61/4-2.png" />
-      <img id="책도시락6-2" src="./assets/책도시락/62/6-2.png" />
-      <img id="책도시락7-2" src="./assets/책도시락/63/7-2.png" />
-      <img id="책도시락10-1" src="./assets/책도시락/67/10-1.png" />
-      <img id="책도시락10-2" src="./assets/책도시락/67/10-2.png" />
-      <img id="책도시락14-2" src="./assets/책도시락/69/14-2.png" />
-      <img id="책도시락18-2" src="./assets/책도시락/71/18-2.png" />
-      <img id="책도시락19-2" src="./assets/책도시락/72/19-2.png" />
-      <audio
-        id="책도시락1-3"
-        src="./assets/책도시락/60/1-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="책도시락8-3"
-        src="./assets/책도시락/65/8-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="책도시락9-3"
-        src="./assets/책도시락/66/9-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="책도시락10-3"
-        src="./assets/책도시락/67/10-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="책도시락12-3"
-        src="./assets/책도시락/68/12-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="책도시락16-3"
-        src="./assets/책도시락/70/16-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
-      <audio
-        id="책도시락21-3"
-        src="./assets/책도시락/73/21-3.mp3"
-        type="audio/mp3"
-        preload="auto"
-      ></audio>
     </a-assets>
 
-    <!-- [꿈틀꿈틀] -->
-    <!-- 꿈틀꿈틀1 -->
+    <!-- 단체사진 -->
+    <a-marker type="barcode" value="0">
+      <a-entity rotation="0 0 0">
+        <a-image
+          src="#0img"
+          position="0 2.5 0"
+          rotation="0 0 0"
+          scale="6 9 9"
+        ></a-image>
+      </a-entity>
+    </a-marker>
+
+    <!-- [비밀번호] -->
     <a-marker type="barcode" value="1">
-      <a-sound src="#꿈틀꿈틀1-3" autoplay="false" volume="5" soundhandler>
+      <a-sound src="#1audio" autoplay="false" volume="5" soundhandler>
       </a-sound>
-
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀1-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image>
-      </a-entity>
     </a-marker>
 
-    <!-- 꿈틀꿈틀2 -->
     <a-marker type="barcode" value="2">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀2-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          커졌다가멈추기
+        <a-entity rotation="0 0 0">
+          <a-image
+            src="#2img"
+            position="0 2.5 0"
+            rotation="0 0 0"
+            scale="6 9 9"
         ></a-image>
       </a-entity>
     </a-marker>
 
-    <!-- 꿈틀꿈틀3 -->
+    
     <a-marker type="barcode" value="3">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀3-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          빠르게회전하기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀4 -->
-    <a-marker type="barcode" value="4">
-      <a-sound src="#꿈틀꿈틀4-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀4-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀5 -->
-    <a-marker type="barcode" value="5">
-      <a-sound src="#꿈틀꿈틀5-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀5-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀6 -->
-    <a-marker type="barcode" value="6">
-      <a-sound src="#꿈틀꿈틀6-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀6-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          점프하기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀7 -->
-    <a-marker type="barcode" value="7">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀7-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          양옆으로늘렸다가줄이기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀8 -->
-    <a-marker type="barcode" value="8">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀8-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          빠르게회전하기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀9 -->
-    <a-marker type="barcode" value="9">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀9-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          오뚜기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀10 -->
-    <a-marker type="barcode" value="10">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀10-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          느리게회전하기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀11 -->
-    <a-marker type="barcode" value="11">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀11-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          커졌다가멈추기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀12 -->
-    <a-marker type="barcode" value="12">
-      <a-sound src="#꿈틀꿈틀12-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀12-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          커졌다가멈추기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀13 -->
-    <a-marker type="barcode" value="13">
-      <a-sound src="#꿈틀꿈틀13-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <!-- <a-image
-          src="#꿈틀꿈틀13-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image> -->
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀14 -->
-    <a-marker type="barcode" value="14">
-      <a-sound src="#꿈틀꿈틀14-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <!-- <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀14-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          커졌다가멈추기
-        ></a-image>
-      </a-entity> -->
-    </a-marker>
-
-    <!-- 꿈틀꿈틀15 -->
-    <a-marker type="barcode" value="15">
-      <a-sound src="#꿈틀꿈틀15-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <!-- <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀15-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          커졌다가멈추기
-        ></a-image>
-      </a-entity> -->
-    </a-marker>
-
-    <!-- 꿈틀꿈틀16 -->
-    <a-marker type="barcode" value="16">
-      <a-entity rotation="0 0 0">
-        <!-- <a-image
-          src="#꿈틀꿈틀16-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image> -->
-        <a-image
-          src="#꿈틀꿈틀16-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          빠르게회전하기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀17 -->
-    <a-marker type="barcode" value="17">
-      <a-entity rotation="0 0 0">
-        <!-- <a-image
-          src="#꿈틀꿈틀17-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image> -->
-        <a-image
-          src="#꿈틀꿈틀17-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          느리게회전하기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀18 -->
-    <a-marker type="barcode" value="18">
-      <a-entity rotation="0 0 0">
-        <!-- <a-image
-          src="#꿈틀꿈틀18-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image> -->
-        <a-image
-          src="#꿈틀꿈틀18-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          위아래로늘렸다가줄이기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀19 -->
-    <a-marker type="barcode" value="19">
-      <a-entity rotation="0 0 0">
-        <!-- <a-image
-          src="#꿈틀꿈틀19-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image> -->
-        <a-image
-          src="#꿈틀꿈틀19-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          느리게회전하기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀20 -->
-    <a-marker type="barcode" value="20">
-      <a-entity rotation="0 0 0">
-        <!-- <a-image
-          src="#꿈틀꿈틀20-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image> -->
-        <a-image
-          src="#꿈틀꿈틀20-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          커졌다가멈추기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀21 -->
-    <a-marker type="barcode" value="21">
-      <a-entity rotation="0 0 0">
-        <!-- <a-image
-          src="#꿈틀꿈틀21-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image> -->
-        <a-image
-          src="#꿈틀꿈틀21-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          커졌다가멈추기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀22 -->
-    <a-marker type="barcode" value="22">
-      <a-sound src="#꿈틀꿈틀22-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <!-- <a-image
-          src="#꿈틀꿈틀22-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image> -->
-        <a-image
-          src="#꿈틀꿈틀22-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          느리게회전하기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀23 -->
-    <a-marker type="barcode" value="23">
-      <a-entity rotation="0 0 0">
-        <!-- <a-image
-          src="#꿈틀꿈틀23-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image> -->
-        <a-image
-          src="#꿈틀꿈틀23-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          사라졌다가나타나기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀24 -->
-    <a-marker type="barcode" value="24">
-      <a-entity rotation="0 0 0">
-        <!-- <a-image
-          src="#꿈틀꿈틀24-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image> -->
-        <a-image
-          src="#꿈틀꿈틀24-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
-          커졌다가멈추기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 꿈틀꿈틀25 -->
-    <a-marker type="barcode" value="25">
-      <a-sound src="#꿈틀꿈틀25-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <!-- <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀25-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image>
-      </a-entity> -->
-    </a-marker>
-
-    <!-- 꿈틀꿈틀26 -->
-    <a-marker type="barcode" value="26">
-      <a-sound src="#꿈틀꿈틀26-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#꿈틀꿈틀26-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- [모모기획] -->
-    <!-- 모모기획1 -->
-    <a-marker type="barcode" value="74">
-      <a-sound src="#모모기획1-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획1-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          커졌다가멈추기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 모모기획2 -->
-    <a-marker type="barcode" value="75">
-      <a-sound src="#모모기획2-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획2-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          오른쪽으로
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 모모기획3 -->
-    <a-marker type="barcode" value="76">
-      <a-sound src="#모모기획3-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획3-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          왼쪽으로이동하고멈추기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 모모기획4 -->
-    <a-marker type="barcode" value="77">
-      <a-sound src="#모모기획4-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획4-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          양옆으로늘렸다가줄이기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 모모기획5 -->
-    <a-marker type="barcode" value="78">
-      <a-sound src="#모모기획6-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획6-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          사라졌다가나타나기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 모모기획6 -->
-    <a-marker type="barcode" value="79">
-      <a-sound src="#모모기획7-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획7-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          오른쪽으로이동하고멈추기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 모모기획7 -->
-    <a-marker type="barcode" value="80">
-      <a-sound src="#모모기획8-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획8-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          점프하기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 모모기획8 -->
-    <a-marker type="barcode" value="27">
-      <a-sound src="#모모기획10-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획10-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          오른쪽으로
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 모모기획9 -->
-    <a-marker type="barcode" value="28">
-      <a-sound src="#모모기획11-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획11-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          오뚜기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 모모기획10 -->
-    <a-marker type="barcode" value="29">
-      <a-sound src="#모모기획13-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획13-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          점프하기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 모모기획11 -->
-    <a-marker type="barcode" value="30">
-      <a-sound src="#모모기획14-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획14-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          오른쪽으로이동하고멈추기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 모모기획12 -->
-    <a-marker type="barcode" value="31">
-      <a-sound src="#모모기획15-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획15-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          점프하기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 모모기획13 -->
-    <a-marker type="barcode" value="32">
-      <a-sound src="#모모기획17-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획17-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          커졌다가작아지기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 모모기획14 -->
-    <a-marker type="barcode" value="33">
-      <a-sound src="#모모기획18-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획18-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          점프하기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 모모기획15 -->
-    <a-marker type="barcode" value="34">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획19-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          왼쪽으로이동하고멈추기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 모모기획16 -->
-    <a-marker type="barcode" value="35">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#모모기획20-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          점프하기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- [바람소리] -->
-    <!-- 바람소리40 -->
-    <a-marker type="barcode" value="40">
-      <a-sound src="#바람소리3-3" autoplay="false" volume="10" soundhandler>
-      </a-sound>
-
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#바람소리3-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 바람소리41 -->
-    <a-marker type="barcode" value="41">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#바람소리5-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 바람소리42 -->
-    <a-marker type="barcode" value="42">
-      <a-sound src="#바람소리7-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#바람소리7-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 바람소리43 -->
-    <a-marker type="barcode" value="43">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#바람소리8-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 바람소리44 -->
-    <a-marker type="barcode" value="44">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#바람소리11-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 바람소리45 -->
-    <a-marker type="barcode" value="45">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#바람소리15-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
+        <a-entity rotation="0 0 0">
+          <a-image
+            src="#3img"
+            position="0 2.5 0"
+            rotation="0 0 0"
+            scale="6 9 9"
         ></a-image>
       </a-entity>
     </a-marker>
     
-    <!-- 바람소리46 -->
-    <a-marker type="barcode" value="46">
-      <a-sound src="#바람소리16-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#바람소리16-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 바람소리47 -->
-    <a-marker type="barcode" value="47">
-      <a-sound src="#바람소리17-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#바람소리17-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 바람소리48 -->
-    <a-marker type="barcode" value="48">
-      <a-sound src="#바람소리19-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#바람소리19-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 바람소리49 -->
-    <a-marker type="barcode" value="49">
-      <a-sound src="#바람소리21-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-  
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#바람소리21-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- [책도시락] -->
-    <!-- 책도시락60 -->
-    <a-marker type="barcode" value="60">
-      <a-sound src="#책도시락1-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-    </a-marker>
-
-    <!-- 책도시락61 -->
-    <a-marker type="barcode" value="61">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#책도시락4-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          커졌다가멈추기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 책도시락62 -->
-    <a-marker type="barcode" value="62">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#책도시락6-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          커졌다가멈추기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 책도시락63 -->
-    <a-marker type="barcode" value="63">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#책도시락7-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          아래쪽으로이동하고멈추기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 책도시락65 -->
-    <a-marker type="barcode" value="65">
-      <a-sound src="#책도시락8-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-    </a-marker>
-
-    <!-- 책도시락66 -->
-    <a-marker type="barcode" value="66">
-      <a-sound src="#책도시락9-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-    </a-marker>
-
-    <!-- 책도시락67 -->
-    <a-marker type="barcode" value="67">
-      <a-sound src="#책도시락10-3" autoplay="false" volume="5" soundhandler>
-      </a-sound>
-      <a-entity rotation="0 0 0">
+    <a-marker type="barcode" value="4">
+        <a-entity rotation="0 0 0">
           <a-image
-          src="#책도시락10-1"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
+            src="#4img"
+            position="0 2.5 0"
+            rotation="0 0 0"
+            scale="6 9 9"
         ></a-image>
-        <a-image
-          src="#책도시락10-2"
-          position="0 2.5 0.5"
-          rotation="0 0 0"
-          scale="6 9 9"
+      </a-entity>
+    </a-marker>
+    
+    <a-marker type="barcode" value="5">
+        <a-entity rotation="0 0 0">
+          <a-image
+            src="#5img"
+            position="0 2.5 0"
+            rotation="0 0 0"
+            scale="6 9 9"
+        ></a-image>
+      </a-entity>
+    </a-marker>      
+
+    <a-marker type="barcode" value="6">
+        <a-entity rotation="0 0 0">
+          <a-image
+            src="#6img"
+            position="0 2.5 0"
+            rotation="0 0 0"
+            scale="6 9 9"
         ></a-image>
       </a-entity>
     </a-marker>
 
-    <!-- 책도시락68 -->
-    <a-marker type="barcode" value="68">
-      <a-sound src="#책도시락12-3" autoplay="false" volume="5" soundhandler>
+    <a-marker type="barcode" value="7">
+        <a-entity rotation="0 0 0">
+          <a-image
+            src="#7img"
+            position="0 2.5 0"
+            rotation="0 0 0"
+            scale="6 9 9"
+        ></a-image>
+      </a-entity>
+    </a-marker>
+
+    <a-marker type="barcode" value="8">
+        <a-entity rotation="0 0 0">
+          <a-image
+            src="#8img"
+            position="0 2.5 0"
+            rotation="0 0 0"
+            scale="6 9 9"
+        ></a-image>
+      </a-entity>
+    </a-marker>
+
+    <a-marker type="barcode" value="9">
+      <a-sound src="#9audio" autoplay="false" volume="5" soundhandler>
       </a-sound>
     </a-marker>
 
-    <!-- 책도시락69 -->
-    <a-marker type="barcode" value="69">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#책도시락14-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          커졌다가멈추기
-        ></a-image>
-      </a-entity>
-    </a-marker>
-
-    <!-- 책도시락70 -->
-    <a-marker type="barcode" value="70">
-      <a-sound src="#책도시락16-3" autoplay="false" volume="5" soundhandler>
+    <a-marker type="barcode" value="10">
+      <a-sound src="#10audio" autoplay="false" volume="5" soundhandler>
       </a-sound>
     </a-marker>
 
-    <!-- 책도시락71 -->
-    <a-marker type="barcode" value="71">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#책도시락18-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          위아래로늘렸다가줄이기
+    <a-marker type="barcode" value="11">
+      <a-sound src="#11audio" autoplay="false" volume="5" soundhandler>
+      </a-sound>
+    </a-marker>
+
+    <a-marker type="barcode" value="12">
+      <a-sound src="#12audio" autoplay="false" volume="5" soundhandler>
+      </a-sound>
+    </a-marker>
+    
+    <a-marker type="barcode" value="13">
+      <a-sound src="#13audio" autoplay="false" volume="5" soundhandler>
+      </a-sound>
+      
+        <a-entity rotation="0 0 0">
+          <a-image
+            src="#13img"
+            position="0 2.5 0"
+            rotation="0 0 0"
+            scale="6 9 9"
+            느리게회전하기
         ></a-image>
       </a-entity>
     </a-marker>
 
-    <!-- 책도시락72 -->
-    <a-marker type="barcode" value="72">
-      <a-entity rotation="0 0 0">
-        <a-image
-          src="#책도시락19-2"
-          position="0 2.5 0"
-          rotation="0 0 0"
-          scale="6 9 9"
-          커졌다가작아지기
+    <a-marker type="barcode" value="17">
+      <a-sound src="#14audio" autoplay="false" volume="5" soundhandler>
+      </a-sound>
+    </a-marker>
+
+    <a-marker type="barcode" value="18">
+        <a-entity rotation="0 0 0">
+          <a-image
+            src="#18img"
+            position="0 2.5 0"
+            rotation="0 0 0"
+            scale="6 9 9"
+            커졌다가작아지기
         ></a-image>
       </a-entity>
     </a-marker>
 
-    <!-- 책도시락73 -->
-    <a-marker type="barcode" value="73">
-      <a-sound src="#책도시락21-3" autoplay="false" volume="5" soundhandler>
+    <a-marker type="barcode" value="19">
+      <a-entity rotation="0 0 0">
+        <a-image
+          src="#19img"
+          position="0 2.5 0"
+          rotation="0 0 0"
+          scale="6 9 9"
+          점프하기
+      ></a-image>
+    </a-entity>
+  </a-marker>
+
+  <a-marker type="barcode" value="20">
+    <a-entity rotation="0 0 0">
+      <a-image
+        src="#20img"
+        position="0 2.5 0"
+        rotation="0 0 0"
+        scale="6 9 9"
+        오른쪽으로
+    ></a-image>
+  </a-entity>
+</a-marker>
+
+  <a-marker type="barcode" value="21">
+    <a-entity rotation="0 0 0">
+      <a-image
+        src="#21img"
+        position="0 2.5 0"
+        rotation="0 0 0"
+        scale="6 9 9"
+        오른쪽으로
+    ></a-image>
+  </a-entity>
+</a-marker>
+
+<a-marker type="barcode" value="22">
+  <a-sound src="#22audio" autoplay="false" volume="5" soundhandler>
+  </a-sound>
+</a-marker>
+
+<a-marker type="barcode" value="24">
+  <a-sound src="#22audio" autoplay="false" volume="5" soundhandler>
+  </a-sound>
+</a-marker>
+
+<a-marker type="barcode" value="26">
+  <a-sound src="#22audio" autoplay="false" volume="5" soundhandler>
+  </a-sound>
+</a-marker>
+
+
+    <a-marker type="barcode" value="27">
+      <a-sound src="#27audio" autoplay="false" volume="5" soundhandler>
+      </a-sound>
+      
+        <a-entity rotation="0 0 0">
+          <a-image
+            src="#27img"
+            position="0 2.5 0"
+            rotation="0 0 0"
+            scale="6 9 9"
+        ></a-image>
+      </a-entity>
+    </a-marker>
+
+    <a-marker type="barcode" value="28">
+      <a-sound src="#28audio" autoplay="false" volume="5" soundhandler>
+      </a-sound>
+    </a-marker>
+
+    <a-marker type="barcode" value="29">
+      <a-sound src="#29audio" autoplay="false" volume="5" soundhandler>
+      </a-sound>
+    </a-marker>
+
+    <a-marker type="barcode" value="30">
+      <a-sound src="#30audio" autoplay="false" volume="5" soundhandler>
+      </a-sound>
+    </a-marker>
+
+    <a-marker type="barcode" value="31">
+      <a-sound src="#31audio" autoplay="false" volume="5" soundhandler>
+      </a-sound>
+      
+        <a-entity rotation="0 0 0">
+          <a-image
+            src="#31img"
+            position="0 2.5 0"
+            rotation="0 0 0"
+            scale="6 9 9"
+        ></a-image>
+      </a-entity>
+    </a-marker>
+
+    <a-marker type="barcode" value="32">
+      <a-sound src="#30audio" autoplay="false" volume="5" soundhandler>
       </a-sound>
     </a-marker>
 
